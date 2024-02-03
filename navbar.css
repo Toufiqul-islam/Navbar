@@ -1,0 +1,34 @@
+.top{
+    display: flex;
+    align-items: wrap;
+}
+.leafttop{
+    justify-content: left;
+}
+.leafttop>a{
+    font-size:25px;
+    text-decoration:none;
+    padding: 5px;
+}
+
+.flex-box{
+    background-image: url(./background_in_space.gif);
+    height: 600px;
+    display: flex;
+    align-items: wrap;
+    justify-content:space-around;
+    padding: 15px;
+}
+
+.flex-box>div>a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+.flex-box>div>a:hover{
+    background-size: 30px;
+    background-color: black;
+    padding: none;
+}
+
