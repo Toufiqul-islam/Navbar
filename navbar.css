@@ -1,16 +1,95 @@
 .top{
     display: flex;
     align-items: wrap;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 5px;
 }
 .leafttop{
     justify-content: left;
+    display: flex;
+    justify-content: space-around;
 }
 .leafttop>a{
-    font-size:25px;
+    font-size:20px;
     text-decoration:none;
+    padding: 5px 15px 5px 15px;
+    color:aliceblue;
+}
+.search{
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 2px;
+}
+.icon1{
+    margin: 15px;
+    margin-right: 450px;
+}
+.righttop{
+    display: flex;
+    justify-content:right;
+    justify-content: space-around;
+}
+.righttop1>a:hover{
+    background-color: black;
+}
+.righttop2>a:hover{
+    background-color: black;
+}
+.righttop3>a:hover{
+    background-color: black;
+}
+.righttop1{
+    padding: 5px 30px 0px 30px;
+    font-size: 20px;
+    
+}
+.righttop1>a{
+    text-decoration: none;
+    color: aliceblue;
     padding: 5px;
 }
+.righttop2{
+    padding: 5px 30px 0px 30px;
+    font-size: 20px;
+    
+}
+.righttop2>a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+}
+.righttop3{
+    padding: 5px 30px 0px 30px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.righttop3>a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+}
+.button{
+    justify-content: right;
+}
+.button1{
+    width:90px;
+    font-size: 17px;
+    border-radius: 30px;
+    position: absolute;
+    height: 40px;
+    background-color: rgb(187, 240, 222);
+}
+.button2{
+    width:80px;
+    font-size: 17px;
+    border-radius: 30px;
+    position:relative;
+    right: 50px;
+    height: 40px;
+    background-color: rgb(6, 245, 165);
 
+}
 .flex-box{
     background-image: url(./background_in_space.gif);
     height: 600px;
@@ -31,4 +110,6 @@
     background-color: black;
     padding: none;
 }
-
+.leafttop>a:hover{
+    background-color: rgb(0, 252, 168);
+}
